@@ -7,6 +7,8 @@ plugins {
 group = 'br.com.fiap.ericklpps'
 version = '0.0.1-SNAPSHOT'
 
+apply plugin: 'maven-publish'
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
