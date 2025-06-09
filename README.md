@@ -44,3 +44,5 @@ CREATE TABLE gl_ESCOLA (
 }
 ```
 
+Acesso a api: 
+https://apigreenlight-cmf8dgdeafa5cbhm.eastus2-01.azurewebsites.net/escola
