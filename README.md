@@ -31,8 +31,7 @@ CREATE TABLE gl_ESCOLA (
 
 ### 2. Deploy Azure Web App
 ```bash
-# Upload automático via pipeline
-# ou deploy manual via Azure Portal
+# Deploy manual via Azure Portal
 ```
 
 ### Exemplo JSON
