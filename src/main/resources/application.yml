@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: CrudEscola
+  datasource:
+    url: jdbc:sqlserver://db-greenlight.database.windows.net:1433;database=db-greenlight;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: admin1@db-greenlight
+    password: Bac0806@
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServerDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
